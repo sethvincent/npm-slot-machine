@@ -1,15 +1,15 @@
 var test = require('tape')
 
-var roulette = require('../index')
+var slotMachine = require('../index')
 
 test('get random packages', function (t) {
-  var list = roulette()
+  var list = slotMachine()
   t.equal(list.length, 3)
   t.end()
 })
 
 test('specify count', function (t) {
-  var list = roulette({ count: 5 })
+  var list = slotMachine({ count: 5 })
   t.equal(list.length, 5)
   t.end()
 })
