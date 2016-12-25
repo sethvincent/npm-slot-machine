@@ -26,7 +26,7 @@ You may need to try it a few times before something interesting comes up 🙃.
 ## Install
 
 ```sh
-npm install --g npm-slot-machine
+npm install -g npm-slot-machine
 ```
 
 ## Usage
