@@ -1,6 +1,6 @@
 {
   "name": "npm-slot-machine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project inspiration! Make a project with these random npm packages.",
   "main": "index.js",
   "bin": {
