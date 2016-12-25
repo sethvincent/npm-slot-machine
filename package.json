@@ -1,0 +1,39 @@
+{
+  "name": "npm-slot-machine",
+  "version": "0.0.0",
+  "description": "Project inspiration! Make a project with these random npm packages.",
+  "main": "index.js",
+  "bin": {
+    "npm-slot-machine": "cli.js"
+  },
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --unused --no-dev && ncu",
+    "lint": "standard",
+    "test:no-lint": "node tests/*.js | tap-spec",
+    "test": "npm run lint && npm run test:no-lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/npm-slot-machine.git"
+  },
+  "keywords": [
+    "npm",
+    "packages",
+    "modules"
+  ],
+  "author": "sethvincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/npm-slot-machine/issues"
+  },
+  "homepage": "https://github.com/sethvincent/npm-slot-machine#readme",
+  "dependencies": {
+    "all-the-package-names": "^1.3083.0",
+    "pick-random": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
